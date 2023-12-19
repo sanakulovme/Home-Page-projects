@@ -1,0 +1,43 @@
+/* Media query css file */
+
+@media screen and (max-width: 1230px) {
+    .container {
+        width: 90%;
+    }
+    header .container {
+        flex-direction: column;
+    }
+    header,
+    .service,
+    .about,
+    .tes {
+        height: auto;
+        padding-bottom: 50px;
+    }
+    .head__right {
+        margin: 0;
+    }
+    .container {
+        width: 95%;
+    }
+    .tes__row {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .form__input {
+        width: auto;
+        height: auto;
+    }
+    .about__col {
+        margin: 20px 0;
+    }
+    .tes__col {
+        flex-direction: column;
+    }
+    .form {
+        padding: 30px 15px;
+        margin-top: 50px;
+    }
+}

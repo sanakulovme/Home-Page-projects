@@ -1,0 +1,62 @@
+@media screen and (max-width: 1200px) {
+    .help__row,
+    .container {
+        width: 90%;
+    }
+    .tes__row {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1160px) {
+    .my {
+        height: auto;
+        background: linear-gradient(45deg, #fff 50%, #50B2EA 50%);
+    }
+    .my__box {
+        flex-direction: column;
+    }
+    .my__box-left {
+        padding: 10px;
+    }
+    .my__box-left,
+    .my__box-right {
+        width: 100%;
+    }
+    .my__box-right img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 684px) {
+    .tes__col {
+        flex-direction: column;
+        padding: 15px;
+    }
+    .logo {
+        flex-direction: column;
+        row-gap: 20px;
+    }
+    .ch__r {
+        padding: 10px;
+        display: block;
+    }
+    header {
+        overflow: hidden;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .home__title,
+    .my__title,
+    .tes__title,
+    .c__title {
+        font-size: 30px;
+    }
+    .logo__bold {
+        font-size: 20px;
+    }
+    .logo__txt {
+        letter-spacing: 0.4rem;
+    }
+}
